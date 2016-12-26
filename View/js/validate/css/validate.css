@@ -1,0 +1,4 @@
+div.error {background:url(validate.png) no-repeat scroll 2px 1px transparent; clear:both; color:#ff0000; font-size:12px; line-height:14px; margin:3px 0 0; min-height:13px; padding-left:17px;}
+input.error,
+select.error,
+textarea.error {border:1px solid #ff0000!important;}
