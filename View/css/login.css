@@ -1,0 +1,120 @@
+/* Reset ================================================================================= */
+* {margin:0; padding:0;}
+body {background:#7DC6E6 url(../images/bkg_body.jpg) no-repeat fixed center center; background-size:cover; color:#828282; font:12px/16px "Microsoft YaHei","微软雅黑","宋体",Arial,Verdana,sans-serif; text-align:left;}
+img {border:0; vertical-align:top;}
+a {color:#1F4691; text-decoration:none;}
+a:hover {color:#E42832; text-decoration:none;}
+:focus {outline:0;}
+.clearer {clear:both; font-size:0; line-height:0; height:0; margin:0; padding:0;}
+
+/* Headings */
+h1 {font-size:20px; font-weight:normal; line-height:1.15;}
+h2 {font-size:18px; font-weight:normal; line-height:1.25;}
+h3 {font-size:16px; font-weight:normal; line-height:1.25;}
+h4 {font-size:14px; font-weight:bold;}
+h5 {font-size:12px; font-weight:bold;}
+h6 {font-size:11px; font-weight:bold;}
+
+/* Forms */
+form {display:inline;}
+fieldset {border:0;}
+legend {display:none;}
+
+/* Table */
+table {border:0; border-collapse:collapse; border-spacing:0; empty-cells:show; font-size:100%;}
+caption, th, td {text-align:left;}
+
+/* Content */
+strong {font-weight:bold;}
+address {font-style:normal;}
+cite {font-style:normal;}
+q, blockquote {quotes:none;}
+q:before, q:after {content:'';}
+small, big {font-size:1em;}
+sup {font-size:1em; vertical-align:top;}
+.margin-top {margin-top:10px!important;}
+
+/* Lists */
+ul, ol {list-style:none;}
+
+/* Tools */
+.hidden {border:0!important; display:block!important; font-size:0!important; height:0!important; line-height:0!important; margin:0!important; overflow:hidden!important; padding:0!important; width:0!important;}
+.nobr {white-space:nowrap!important;}
+.wrap {white-space:normal!important;}
+.a-left {text-align:left!important;}
+.a-center {text-align:center!important;}
+.a-right {text-align:right!important;}
+.v-top {vertical-align:top;}
+.v-middle {vertical-align:middle;}
+.f-left,
+.left {float:left!important;}
+.f-right,
+.right {float:right!important;}
+.f-none {float:none!important;}
+.f-fix {float:left; width:100%;}
+.no-display {display:none;}
+.no-margin {margin:0!important;}
+.no-padding {padding:0!important;}
+.no-bg {background:none!important;}
+.clearer:after {clear:both; content:"."; display:block; font-size:0; height:0; line-height:0; overflow:hidden;}
+/* ======================================================================================= */
+
+/* Global Styles ========================================================================= */
+input,
+select,
+textarea,
+button {color:#555; font-size:14px; vertical-align:middle;}
+input.input-text,
+select,
+textarea {border:1px solid #DDDDDD;}
+input.input-text,
+textarea {padding: 5px 10px;}
+select {padding:0 0 1px;}
+textarea {overflow:auto;}
+
+/* Form lists */
+.form-list {}
+.form-list li {margin:0 0 10px;}
+.form-list label {color:#333333; display:inline-block; margin-right:10px; text-align:right; width:48px; font-size:14px;}
+.form-list label em {color:#FF0000; font-style:normal;}
+.form-list li.control {clear:both; display:block; overflow:hidden;}
+.form-list li.control label {float:none; padding:0; width:auto;}
+.form-list li.control input.radio,
+.form-list li.control input.checkbox {margin-right:6px;}
+.form-list li.control p {margin:6px 0 0 22px;}
+.form-list li.fields {clear:both; display:block; overflow:hidden;}
+.form-list .field {float:left; width: 402px;}
+.form-list .input-box {display:inline-block; vertical-align:middle; width:340px;}
+.form-list .input-box label {float:none; padding:0; width:auto;}
+.form-list .input-box input.radio,
+.form-list .input-box input.checkbox {margin-right:6px;}
+.form-list .input-box input:focus {border-color: #377bed;}
+.form-list input.input-text {width:318px; height:30px;}
+.form-list textarea {width:165px; height:10em;}
+.form-list select {width:171px;}
+.buttons-set {clear:both; display:block; margin:1.5em 0 0!important; overflow:hidden; text-align:center; padding-left: 64px;}
+.buttons-set a.button {background:#76c000; color:#fff; display:block; font-size:18px; line-height:28px; padding:9px 16px; width:306px;}
+.buttons-set a.button:hover {background:#6caf01;}
+
+/* Messages */
+.error-msg,
+.success-msg,
+.notice-msg {background-position:10px 9px!important; background-repeat:no-repeat!important; border-style:solid!important; border-width:1px!important; font-size:12px!important; font-weight:bold!important; margin-bottom:20px; padding:10px 8px 10px 32px!important;}
+.error-msg {background-color:#faebe7; background-image:url("../images/i_msg-error.gif"); border-color:#f16048; color:#df2801;}
+.success-msg {background-color:#eff5ea; background-image:url("../images/i_msg-success.gif"); border-color:#446423; color:#3d6611;}
+.notice-msg {background-color:#fafaec; background-image:url("../images/i_msg-notice.gif"); border-color:#fcd344; color:#3d6611;}
+.big-error-msg,
+.big-success-msg,
+.big-notice-msg {background-position:10px 9px!important; background-repeat:no-repeat!important; border-style:solid!important; border-width:1px!important; font-size:14px!important; font-weight:bold!important; margin-bottom:20px; padding:15px 8px 15px 47px!important;}
+.big-error-msg {background-color:#faebe7; background-image:url("../images/error-msg.png"); border-color:#f16048; color:#df2801;}
+.big-success-msg {background-color:#eff5ea; background-image:url("../images/success-msg.png"); border-color:#446423; color:#3d6611;}
+.big-notice-msg {background-color:#fafaec; background-image:url("../images/notice-msg.png"); border-color:#fcd344; color:#3d6611;}
+/* ======================================================================================= */
+
+/* Custom ================================================================================ */
+.wrapper {margin:0 auto; min-height:500px; min-width:980px; position:static;}
+.main-box {background-color:#fff; border-radius:3px; box-shadow:0 1px 3px 0 rgba(0, 0, 0, 0.3); left:50%; margin-left:-300px; margin-top:-230px; padding:40px 100px; position:absolute; top:50%; width:410px;}
+.box-header {display:inline-block; margin-bottom:20px;}
+.box-header .logo {color:#377bee; font-size:30px; height:50px; letter-spacing:4px; line-height:50px; margin:0 15px;}
+.box-header .title {border-left:1px solid #ccc; color:#888; font-size:18px; height:50px; letter-spacing:8px; line-height:24px; padding-left:20px; width:60px;}
+/* ======================================================================================= */
